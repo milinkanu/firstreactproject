@@ -44,7 +44,7 @@ export default function Form({
   });
 
   if (isDuplicate) {
-    toast.error("Username already exists!", { theme: "colored" });
+    toast.error("Username already exists!!", { theme: "colored" });
     newErrors.username = "Username already exists!";
   }
     
